@@ -1,0 +1,60 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://main-menu.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+color = Color( 0.211765, 0.662745, 0.682353, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PlayGameBtn" type="Button" parent="."]
+margin_left = 416.0
+margin_top = 322.569
+margin_right = 608.0
+margin_bottom = 366.569
+rect_pivot_offset = Vector2( 138.443, 97.5651 )
+text = "Play Demo"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="QuitGameBtn" type="Button" parent="."]
+margin_left = 416.0
+margin_top = 421.3
+margin_right = 608.0
+margin_bottom = 465.3
+rect_pivot_offset = Vector2( 138.443, 97.5651 )
+text = "Quit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Label" parent="."]
+anchor_right = 0.112305
+margin_left = 320.0
+margin_top = 256.0
+margin_right = 589.0
+margin_bottom = 298.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Music Knights Prototype"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextBanner" type="RichTextLabel" parent="."]
+margin_left = 416.0
+margin_top = 70.0
+margin_right = 629.0
+margin_bottom = 110.0
